@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(90deg, #000000, #0000ff, #8a2be2);
+        }
+        .app{
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .app h1{
+            color: white;
+            font-family: 'Roboto', sans-serif;  
+        }
+        .app input{
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            color: white;
+        }
+        .app input:focus{
+            outline: none;
+        }
+        .app button{
+            background: linear-gradient(90deg, #000000, #0000ff, #8a2be2);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        /*make glow effect hover button*/
+        .app button:hover{
+            box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+        }
+        .app button:focus{
+            outline: none;
+        } 
+    </style>
+    <div class="app">
+        <h1>Hello World</h1>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <button>Click Me</button>
+    </div>
+</body>
+</html>
