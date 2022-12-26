@@ -20,6 +20,7 @@ int main()
     cout<<'Hello Sadman';
     cout<<'Hello Sakib';
     show();
+    loop(5);
     cout<<sum(5);
     return 0;
 }
